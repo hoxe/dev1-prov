@@ -5,13 +5,19 @@
     justify-content: center;
     min-height: 100vh;
     padding: 0 2rem;
+    background-color: rgb(247, 245, 245);
+    color: rgb(12, 12, 12);
+
 }
 
 #login .form {
-    background-color: #f1f1f1;
+    background-color: #6a2df8;
     width: 100%;
     max-width: 480px;
+    border-radius: 00.5rem;
+    border-style:double;
     padding: 0.5rem;
+    border-color: rgb(5, 5, 5);
 }
 
 #login .field {
@@ -20,14 +26,19 @@
 
 #login .field label {
     display: block;
+    color: aliceblue;
 
 }
 
 #login .field input{
-   width: 100%; 
+   width: 100%;
+   color: rgb(0, 0, 0); 
+   background-color: aliceblue;
+   border-radius: 0.2rem;
 }
 
 #login .actions{
     text-align: center;
     margin-top: 0.5rem;
 }
+
